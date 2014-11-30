@@ -47,7 +47,7 @@ html {
 h1, h2, h3, h4, h5, h6 {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  color: #313131;
+  color: #303030;
 }
 
 
@@ -284,4 +284,20 @@ a.pagination-item:hover {
 
 .pull-right {
   float: right !important;
+}
+
+.logo {
+  padding: 130px 0;
+  background-color: inherit;
+  height: 450px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 30em) {
+  .logo {
+    display: none;
+  }
+  .masthead-title li {
+    padding-left: 10px;
+  }
 }
