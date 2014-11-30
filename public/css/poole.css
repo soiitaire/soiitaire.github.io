@@ -120,8 +120,13 @@ strong {
 
 /* Lists */
 ul, ol, dl {
+  font-size: 15px;
   margin-top: 0;
   margin-bottom: 1rem;
+}
+
+ul li {
+  margin-bottom: 25px;
 }
 
 dt {
@@ -216,7 +221,6 @@ pre code {
 
 /* Quotes */
 blockquote {
-  padding: .5rem 1rem;
   margin: .8rem 0;
   color: #7a7a7a;
   border-left: .25rem solid #e5e5e5;
