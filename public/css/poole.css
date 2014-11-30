@@ -108,7 +108,7 @@ h4, h5, h6 {
 
 /* Body text */
 p {
-  font-size: 15em;
+  font-size: 15px;
   line-height: 40px;
   letter-spacing: 1.6px;
 }
