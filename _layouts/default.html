@@ -12,10 +12,14 @@
     <div class="wrap">
       <div class="masthead">
         <div class="container">
-          <h3 class="masthead-title">
-            <a href="/" title="Home">{{ site.title }}</a>
-            <small class="pull-right">{{ site.tagline }}</small>
-          </h3>
+          <ul class="masthead-title">
+            <li class="active"><a href="/">{{ site.title }}</a></li>
+            <li><a href="{{ site.author.weibo }}">微博</a></li>
+            <li><a href="{{ site.author.douban }}">豆瓣</a></li>
+            <li><a href="{{ site.author.twitter }}">Twitter</a></li>
+            <li><a href="{{ site.author.instagram }}">Instagram</a></li>
+            <li><a href="{{ site.author.github }}">Github</a></li>
+          </ul>
         </div>
       </div>
 

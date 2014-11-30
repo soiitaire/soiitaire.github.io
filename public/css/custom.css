@@ -1,0 +1,10 @@
+html, body {
+  color: rgb(50, 50, 50);
+}
+
+.logo {
+    padding: 130px 0;
+    background-color: inherit;
+    height: 500px;
+    margin-bottom: 0;
+}
